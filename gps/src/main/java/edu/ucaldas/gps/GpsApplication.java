@@ -13,7 +13,7 @@ public class GpsApplication {
       SpringApplication.run(GpsApplication.class, args);
     }
     @GetMapping("/hello")
-    public String hello(@RequestParam(value = "name", defaultValue = "Hello dolor de cabeza") String name) {
+    public String hello(@RequestParam(value = "name", defaultValue = "Esta vez si coronamos de verdad verdad") String name) {
       return String.format("Hello %s!", name);
     }
 }
